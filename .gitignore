@@ -1,0 +1,8 @@
+# Secrets - never commit
+*.plist
+**/*oauth*
+**/*token*
+
+# OS files
+.DS_Store
+Thumbs.db

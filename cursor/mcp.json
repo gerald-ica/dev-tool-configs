@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "MCP_DOCKER": {
+      "command": "docker",
+      "args": [
+        "mcp",
+        "gateway",
+        "run"
+      ]
+    },
+    "brightdata": {
+      "url": "https://mcp.brightdata.com/sse?token=YOUR_BRIGHTDATA_TOKEN&groups=advanced_scraping,ecommerce,social,browser,finance,business,research",
+      "transport": "sse"
+    },
+    "sketch": {
+      "url": "http://localhost:31126/mcp",
+      "transport": "http"
+    },
+    "pencil": {
+      "name": "pencil",
+      "transport": "stdio",
+      "command": "/Users/gerald/.pencil/mcp/cursor/out/mcp-server-darwin-arm64",
+      "args": [
+        "--app",
+        "cursor"
+      ],
+      "env": {}
+    }
+  }
+}

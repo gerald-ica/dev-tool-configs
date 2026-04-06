@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeSubmitPrompt": [
+      {
+        "command": "/Users/gerald/.cursor/hooks/session-init.sh"
+      },
+      {
+        "command": "/Users/gerald/.cursor/hooks/context-inject.sh"
+      }
+    ],
+    "afterMCPExecution": [
+      {
+        "command": "/Users/gerald/.cursor/hooks/save-observation.sh"
+      }
+    ],
+    "afterShellExecution": [
+      {
+        "command": "/Users/gerald/.cursor/hooks/save-observation.sh"
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": "/Users/gerald/.cursor/hooks/save-file-edit.sh"
+      }
+    ],
+    "stop": [
+      {
+        "command": "/Users/gerald/.cursor/hooks/session-summary.sh"
+      }
+    ]
+  }
+}
+

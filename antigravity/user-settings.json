@@ -1,0 +1,13 @@
+{
+  "window.commandCenter": true,
+  "workbench.colorTheme": "Monokai Dimmed",
+  "cursor.cpp.enablePartialAccepts": true,
+  "cursor.agent_layout_browser_beta_setting": true,
+  "cursor.enable_git_worktrees_setting": true,
+  "cursor.rpcFileLogger.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "geminicodeassist.project": "eastern-banner-3sf6z",
+  "diffEditor.codeLens": true,
+  "workbench.editor.enablePreview": false,
+  "files.autoSave": "afterDelay"
+}

@@ -1,0 +1,139 @@
+{
+  "mcpServers": {
+    "MCP_DOCKER": {
+      "command": "docker",
+      "args": [
+        "mcp",
+        "gateway",
+        "run"
+      ]
+    },
+    "brightdata": {
+      "type": "sse",
+      "url": "https://mcp.brightdata.com/sse?token=YOUR_BRIGHTDATA_TOKEN&groups=advanced_scraping,ecommerce,social,browser,finance,business,research"
+    }
+  },
+  "model": {
+    "name": "qwen3.5-plus"
+  },
+  "tools": {
+    "approvalMode": "yolo"
+  },
+  "permissions": {
+    "allow": [],
+    "deny": []
+  },
+  "general": {
+    "checkpointing": {
+      "enabled": true
+    },
+    "disableAutoUpdate": false
+  },
+  "$version": 3,
+  "env": {
+    "BAILIAN_CODING_PLAN_API_KEY": "YOUR_BAILIAN_API_KEY"
+  },
+  "modelProviders": {
+    "openai": [
+      {
+        "id": "qwen3.5-plus",
+        "name": "[Bailian Coding Plan for Global/Intl] qwen3.5-plus",
+        "baseUrl": "https://coding-intl.dashscope.aliyuncs.com/v1",
+        "envKey": "BAILIAN_CODING_PLAN_API_KEY",
+        "generationConfig": {
+          "extra_body": {
+            "enable_thinking": true
+          },
+          "contextWindowSize": 1000000
+        }
+      },
+      {
+        "id": "qwen3-coder-plus",
+        "name": "[Bailian Coding Plan for Global/Intl] qwen3-coder-plus",
+        "baseUrl": "https://coding-intl.dashscope.aliyuncs.com/v1",
+        "envKey": "BAILIAN_CODING_PLAN_API_KEY",
+        "generationConfig": {
+          "contextWindowSize": 1000000
+        }
+      },
+      {
+        "id": "qwen3-coder-next",
+        "name": "[Bailian Coding Plan for Global/Intl] qwen3-coder-next",
+        "baseUrl": "https://coding-intl.dashscope.aliyuncs.com/v1",
+        "envKey": "BAILIAN_CODING_PLAN_API_KEY",
+        "generationConfig": {
+          "contextWindowSize": 262144
+        }
+      },
+      {
+        "id": "qwen3-max-2026-01-23",
+        "name": "[Bailian Coding Plan for Global/Intl] qwen3-max-2026-01-23",
+        "baseUrl": "https://coding-intl.dashscope.aliyuncs.com/v1",
+        "envKey": "BAILIAN_CODING_PLAN_API_KEY",
+        "generationConfig": {
+          "extra_body": {
+            "enable_thinking": true
+          },
+          "contextWindowSize": 262144
+        }
+      },
+      {
+        "id": "glm-4.7",
+        "name": "[Bailian Coding Plan for Global/Intl] glm-4.7",
+        "baseUrl": "https://coding-intl.dashscope.aliyuncs.com/v1",
+        "envKey": "BAILIAN_CODING_PLAN_API_KEY",
+        "generationConfig": {
+          "extra_body": {
+            "enable_thinking": true
+          },
+          "contextWindowSize": 202752
+        }
+      },
+      {
+        "id": "glm-5",
+        "name": "[Bailian Coding Plan for Global/Intl] glm-5",
+        "baseUrl": "https://coding-intl.dashscope.aliyuncs.com/v1",
+        "envKey": "BAILIAN_CODING_PLAN_API_KEY",
+        "generationConfig": {
+          "extra_body": {
+            "enable_thinking": true
+          },
+          "contextWindowSize": 202752
+        }
+      },
+      {
+        "id": "MiniMax-M2.5",
+        "name": "[Bailian Coding Plan for Global/Intl] MiniMax-M2.5",
+        "baseUrl": "https://coding-intl.dashscope.aliyuncs.com/v1",
+        "envKey": "BAILIAN_CODING_PLAN_API_KEY",
+        "generationConfig": {
+          "extra_body": {
+            "enable_thinking": true
+          },
+          "contextWindowSize": 196608
+        }
+      },
+      {
+        "id": "kimi-k2.5",
+        "name": "[Bailian Coding Plan for Global/Intl] kimi-k2.5",
+        "baseUrl": "https://coding-intl.dashscope.aliyuncs.com/v1",
+        "envKey": "BAILIAN_CODING_PLAN_API_KEY",
+        "generationConfig": {
+          "extra_body": {
+            "enable_thinking": true
+          },
+          "contextWindowSize": 262144
+        }
+      }
+    ]
+  },
+  "security": {
+    "auth": {
+      "selectedType": "openai"
+    }
+  },
+  "codingPlan": {
+    "region": "global",
+    "version": "01840ceb99f7ee4dcf3d2c4d5f2f8f4409f7f38cfc45013b7c94a3928f3b6a3e"
+  }
+}

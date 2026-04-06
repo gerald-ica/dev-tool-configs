@@ -1,0 +1,42 @@
+{
+	"windowBounds": {
+		"x": 0,
+		"y": 26,
+		"width": 1312,
+		"height": 822
+	},
+	"recentFiles": [
+		"/Volumes/Untitled/ENVI/Envi-ios-v2.0/Envi-ios-v2.0-UI-UX.pen",
+		"/Users/gerald/.tmp/test-one-vector-fixed.pen",
+		"/Volumes/START HERE/Project 500/Design/ENVI brand Guidline.pen",
+		"/Volumes/START HERE/Project 500/Design/ENVI brand Guidline.vector-verify.pen",
+		"/Volumes/START HERE/Project 500/Design/ENVI brand Guidline.vector-test.pen",
+		"/Volumes/START HERE/Project 500/Design/ENVI brand Guidline.vectorized-check.pen",
+		"/Users/gerald/.tmp/test-one-vector.pen",
+		"/Users/gerald/.tmp/test-path-import.pen",
+		"/Users/gerald/pencil-link-test/svg-image-test.pen",
+		"/Users/gerald/pencil-link-test/backslash-image-test.pen",
+		"/Users/gerald/pencil-link-test/nested/nested-image-test.pen",
+		"/Users/gerald/pencil-link-test/project-copy/brand guidline.pen",
+		"/Users/gerald/pencil-link-test/minimal-image-test.pen",
+		"/Volumes/START HERE/Project 500/Design/brand guidline.pen"
+	],
+	"claudeLoginType": "subscription",
+	"enabledIntegrations": [
+		"claudeCodeCLI",
+		"codexCLI",
+		"geminiCLI",
+		"openCodeCLI",
+		"kiroCLI",
+		"claudeDesktop"
+	],
+	"codexApiKey": "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",
+	"codexLoginType": "subscription",
+	"workspaceFolders": {
+		"/Users/gerald/Downloads/ENVI brand Guidline.pen": "/Users/gerald/Downloads/Designing a UI Kit for iPhone Photo_Video Editing App",
+		"/Volumes/START HERE/Project 500/Design/ENVI brand Guidline.pen": "/Volumes/START HERE/Project 500/Design",
+		"/Volumes/Untitled/ENVI/Envi-ios-v2.0/Envi-ios-v2.0-UI-UX.pen": "/Volumes/Untitled/ENVI/Envi-ios-v2.0/envi-ios-v2.0"
+	},
+	"installOnAppQuit": false,
+	"claudeCodeAccount": "gerald@weareinformal.com"
+}

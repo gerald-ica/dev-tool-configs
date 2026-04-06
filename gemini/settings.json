@@ -1,0 +1,81 @@
+{
+  "mcpServers": {
+    "MCP_DOCKER": {
+      "command": "docker",
+      "args": [
+        "mcp",
+        "gateway",
+        "run"
+      ],
+      "env": {}
+    },
+    "brightdata": {
+      "url": "https://mcp.brightdata.com/sse?token=YOUR_BRIGHTDATA_TOKEN&groups=advanced_scraping,ecommerce,social,browser,finance,business,research"
+    },
+    "magic": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@21st-dev/magic@latest"
+      ],
+      "env": {
+        "API_KEY": "YOUR_API_KEY"
+      }
+    },
+    "runware": {
+      "command": "/Users/gerald/MCP-Runware/.venv/bin/python",
+      "args": [
+        "/Users/gerald/MCP-Runware/runware_mcp_server.py"
+      ],
+      "env": {
+        "RUNWARE_API_KEY": "YOUR_RUNWARE_API_KEY"
+      }
+    },
+    "sketch": {
+      "url": "http://localhost:31126/mcp"
+    },
+    "pencil": {
+      "command": "/Applications/Pencil.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64",
+      "args": [
+        "--app",
+        "desktop"
+      ],
+      "env": {}
+    }
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "general": {
+    "previewFeatures": true,
+    "sessionRetention": {
+      "enabled": true
+    },
+    "enablePromptCompletion": true
+  },
+  "ui": {
+    "showStatusInTitle": true,
+    "showMemoryUsage": true,
+    "showModelInfoInChat": true,
+    "hideWindowTitle": true,
+    "useAlternateBuffer": true,
+    "accessibility": {
+      "screenReader": true
+    },
+    "theme": "Default Light"
+  },
+  "context": {
+    "loadMemoryFromIncludeDirectories": true
+  },
+  "tools": {
+    "shell": {
+      "showColor": true
+    },
+    "autoAccept": true
+  },
+  "ide": {
+    "enabled": true
+  }
+}
